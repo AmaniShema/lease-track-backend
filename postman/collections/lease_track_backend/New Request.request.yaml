@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:8080/api/property-types/save
+method: POST
+body:
+  type: json
+  content: '{ "name": "Apartment" }'
+order: 1000
